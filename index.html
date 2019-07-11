@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NetDisk</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+<body>
+    <!-- header - start -->
+    <header class="top_header">
+        <h1 class="logo"><a href="">XX云</a></h1>
+        <div class="right_function">
+            <a href="" class="member_center">
+                <i class="iconfont icon-vip"></i>
+                会员中心
+            </a>
+            <a href="" class="download_client">
+                <i class="iconfont icon-phone"></i>
+                下载客户端</a> 
+                <div class="search_file">
+                    <i class="iconfont icon-search"></i>
+                    <input type="text" placeholder="搜索全部文件">
+                </div>
+            <div class="user_info">
+                <img src="images/avatar.jpg" class="avatar">
+                <i class="drop_button iconfont icon-down"></i>
+                <ul class="drop_menu">
+                    <li><a href="">个人中心</a></li>
+                    <li><a href="">修改密码</a></li>
+                    <li><a href="">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header - end -->
+
+    <main>
+        <!-- left menu - start -->
+        <div class="left_menu">
+            <button class="upload_button">
+                <i class="iconfont icon-plus"></i>
+                上传
+            </button>
+            <ul class="menu">
+                <li class="active">
+                    <i class="iconfont icon-content"></i>
+                    <span>目录</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-recentsicon"></i>
+                    <span>最近</span>
+                </li>
+            </ul>
+            <hr class="split_line">
+            <ul class="menu">
+                <li>
+                    <i class="iconfont icon-documentfull"></i>
+                    <span>文档</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-image"></i>
+                    <span>图片</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-music"></i>
+                    <span>音乐</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-video"></i>
+                    <span>视频</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-note"></i>
+                    <span>笔记</span>
+                </li>
+            </ul>
+            <hr class="split_line">
+            <ul class="menu">
+                <li>
+                    <i class="iconfont icon-clipboard"></i>
+                    <span>剪贴板</span>
+                </li>
+            </ul>
+            <hr class="split_line">
+            <ul class="menu">
+                <li>
+                    <i class="iconfont icon-link"></i>
+                    <span>分享链接</span>
+                </li>
+                <li>
+                    <i class="iconfont icon-shanchu"></i>
+                    <span>回收站</span>
+                </li>
+            </ul>
+        </div>
+        <!-- left menu - end -->
+
+        <!-- right panel - start -->
+        <div class="right_panel">
+
+            <!-- tool bar - start -->
+            <div class="toolbar">
+                <button><i class="iconfont icon-move"></i>移动到</button>
+                <button><i class="iconfont icon-edit"></i>重命名</button>
+                <button><i class="iconfont icon-shanchu"></i>删除</button>
+                <button><i class="iconfont icon-newfolder"></i>新建文件夹</button>
+                <button><i class="iconfont icon-refresh"></i></button>
+            </div>
+            <!-- tool bar - end -->
+
+
+            <div class="content">
+                <!-- dir tree - start -->
+                <ul class="dir_tree">
+                    <li>
+                        <i class="iconfont icon-folder"></i>
+                        <span>我的文档</span>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-folder"></i>
+                        <span>我的视频</span>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-folder"></i>
+                        <span>我的音乐</span> 
+                        <ul>
+                            <li>
+                                <i class="iconfont icon-folder"></i>
+                                <span>林俊杰</span> 
+                            </li>
+                            <li>
+                                <i class="iconfont icon-folder"></i>
+                                <span>王杰</span> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-folder"></i>
+                        <span>我的课程</span>
+                    </li>
+                </ul>
+                <!-- dir tree - end -->
+
+
+                <div class="files">
+                    <!-- bread crumb - start -->
+                    <div class="bread_crumb">
+                        <div class="check_all"></div>
+                        <ul class="path">
+                            <li>我的音乐</li>
+                            <li>我的音乐</li>
+                        </ul>
+                    </div>
+                    <!-- bread crumb - end -->
+
+
+                    <!-- file list - start -->
+                    <ul class="file_list">
+                        <li>
+                            <i class="iconfont icon-folder"></i>
+                            <h5>我的视频</h5>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-folder"></i>
+                            <h5>我的视频</h5>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-folder"></i>
+                            <h5>我的视频</h5>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-folder"></i>
+                            <h5>我的视频</h5>
+                        </li>
+                    </ul>
+                    <!-- file list - end -->
+                </div>
+            </div>
+        </div>
+        <!-- right panel - end -->
+    </main>
+
+</body>
+</html>
